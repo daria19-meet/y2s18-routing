@@ -8,6 +8,6 @@ def home():
 
 @app.route('/student/<int:student_id>')
 def display_student(student_id):
-    return render_template('student.html', student_id=student_id)
+    return render_template('student.html', )
 
 app.run(debug=True)
